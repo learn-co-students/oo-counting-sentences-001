@@ -3,6 +3,7 @@
 
 class String
   def count_sentences
-    # code goes here
+    arr = self.split(/[.?!]\s/)
+    arr.count# code goes here
   end
 end
